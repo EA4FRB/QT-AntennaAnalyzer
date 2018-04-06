@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>analyzer.exe</DisplayName>
+    <Description>Install analyzer software.</Description>
+    <Version>1.10.13</Version>
+    <ReleaseDate>2018-04-06</ReleaseDate>
+    <Licenses>
+        <License name="GNU GENERAL PUBLIC LICENSE" file="LICENSE" />
+    </Licenses>
+    <Default>script</Default>
+    <Script>installscript.qs</Script>
+    <UserInterfaces>
+        <UserInterface>page.ui</UserInterface>
+    </UserInterfaces>
+</Package>
