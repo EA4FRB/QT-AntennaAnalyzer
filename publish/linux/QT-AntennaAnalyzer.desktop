@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=QT-AntennnaAnalyzer
+Exec=QT-AntennaAnalyzer
+Icon=QT-AntennaAnalyzer
+Comment=Visualization Software for the SARK-110
+Categories=Utility;
+Name[es_ES]=QT-AntennaAnalyzer.desktop

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>QT-AntennaAnalyzer</Name>
+    <Version>1.0.0</Version>
+    <Title>QT-AntennaAnalyzer Installer</Title>
+    <Publisher>EA4FRB</Publisher>
+    <StartMenuDir>EA4FRB</StartMenuDir>
+    <TargetDir>@HomeDir@/EA4FRB/QT-AntennaAnalyzer</TargetDir>
+</Installer>

@@ -22,9 +22,7 @@ Use QT creator to build the software from Linux or Windows.
 Installation Instructions
 =========================
 ### Linux
-First time, copy 99-sark110.rules file located in analyzer/sark110 folder to /etc/udev/rules.d
-
-There is no installer for Linux. Run this software by invoking `./analyzer` located in build folder.
+Run the installer program located in installer/linux folder.
 
 ### Windows
-Run the installer program. 
+Run the installer program located in installer/win32 folder.
