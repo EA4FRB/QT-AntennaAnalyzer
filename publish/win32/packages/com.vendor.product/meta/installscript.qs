@@ -53,8 +53,7 @@ Component.prototype.createOperations = function()
     if (systemInfo.productType === "windows") 
     {
         component.addOperation("CreateShortcut", "@TargetDir@/analyzer.exe", "@StartMenuDir@/QT-AntennaAnalyzer.lnk",
-		"workingDirectory=@TargetDir@", "iconPath=@TargetDir@/analyzer.exe",
-		"iconId=2", "description=QT-AntennaAnalyzer");
+		"workingDirectory=@TargetDir@");
     }
 }
 
