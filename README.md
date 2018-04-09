@@ -24,5 +24,7 @@ Installation Instructions
 ### Linux
 Run the installer program located in installer/linux folder.
 
+**NOTE**: the installer creates the file 99-sark110.rules at /etc/udev/rules.d to change the permissions of hidraw* device driver and allow connecting to the SARK-110. If this does not work, run the program with administrative rights (e.g. from root or using sudo command).
+
 ### Windows
 Run the installer program located in installer/win32 folder.
