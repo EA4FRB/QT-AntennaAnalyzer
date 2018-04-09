@@ -19,6 +19,7 @@ linuxdeployqt dist/opt/QT-AntennaAnalyzer/QT-AntennaAnalyzer -appimage -no-trans
 mkdir packages/com.vendor.product/data
 mv *.AppImage packages/com.vendor.product/data
 cp ../../analyzer/sark110/99-sark110.rules packages/com.vendor.product/data/99-sark110.rules
+cp ../../analyzer/antenna-charge-radio-128.png packages/com.vendor.product/data/QT-AntennaAnalyzer.png
 rm -rf dist
 
 # Create Installer

@@ -58,6 +58,7 @@ Component.prototype.createOperations = function()
     }
     if (installer.value("os") === "x11")
     {
+        component.addElevatedOperation("CreateDesktopEntry", "/usr/share/applications/QT-AntennaAnalyzer.desktop", "Version=1.0\nType=Application\nTerminal=false\nExec=@TargetDir@/QT-AntennaAnalyzer-x86_64.AppImage\nName=QT-AntennaAnalyzer\nIcon=@TargetDir@/QT-AntennaAnalyzer.png\nComment=Visualization Software for the SARK-110\nCategories=Utility;\n");
         component.addElevatedOperation("Copy", "@TargetDir@/99-sark110.rules", "/etc/udev/rules.d/99-sark110.rules");
     }    
 }
