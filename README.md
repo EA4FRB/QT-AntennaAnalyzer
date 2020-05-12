@@ -4,7 +4,7 @@ originally created by Jeremy Burton, http://jedi98.uk/antenna_analyzer.php, modi
 SARK-110 Antenna Analyzer GUI
 =======================================
 
-![](http://www.sark110.com/_/rsrc/1522782273174/files/qt-antennaanalyzer/QT-AA-Screenshot.png)
+![](http://www.sark110.com/files/thirdpartysw/QT-AA-Screenshot.png)
 
 Build Instructions
 ===================
